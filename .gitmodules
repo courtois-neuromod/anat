@@ -1,11 +1,3 @@
-[submodule "derivatives/fmriprep_20.2.0rc-custom"]
-	path = derivatives/fmriprep_20.2.0rc-custom
-	url = ./derivatives/fmriprep_20.2.0rc-custom
-	datalad-id = 063caa7c-ac21-11ea-8ebe-98039b13f0a9
-[submodule "derivatives/fmriprep-20.0.1-lts"]
-	path = derivatives/fmriprep-20.0.1-lts
-	url = ./derivatives/fmriprep-20.0.1-lts
-	datalad-id = c87acf3a-af49-11ea-b63a-98039b13f0a9
 [submodule "derivatives/fmriprep-20.1.0-lts"]
 	path = derivatives/fmriprep-20.1.0-lts
 	url = ./derivatives/fmriprep-20.1.0-lts
