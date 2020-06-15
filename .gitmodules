@@ -2,3 +2,7 @@
 	path = derivatives/fmriprep-20.1.0-lts
 	url = ./derivatives/fmriprep-20.1.0-lts
 	datalad-id = 8dc4e4d8-af4a-11ea-8979-98039b13f0a9
+[submodule "derivatives/fmriprep-20.1.0"]
+	path = derivatives/fmriprep-20.1.0
+	url = ./derivatives/fmriprep-20.1.0
+	datalad-id = caea2b20-afd1-11ea-bc16-98039b13f0a9
