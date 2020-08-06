@@ -2,3 +2,7 @@
 	path = derivatives/fmriprep-20.1.0
 	url = git@github.com:courtois-neuromod/anat.fmriprep.git
 	datalad-id = caea2b20-afd1-11ea-bc16-98039b13f0a9
+[submodule "derivatives/fmriprep-20.2.0rc0"]
+	path = derivatives/fmriprep-20.2.0rc0
+	url = ./derivatives/fmriprep-20.2.0rc0
+	datalad-id = 1fd58ece-f6a2-11ea-856b-98039b13f0a9
