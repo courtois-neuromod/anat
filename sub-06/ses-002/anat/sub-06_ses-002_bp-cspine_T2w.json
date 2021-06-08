@@ -7,7 +7,7 @@
   "CoilString": "HC3-7;NC1_2",
   "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
   "ConversionSoftware": "dcm2niix",
-  "ConversionSoftwareVersion": "v1.0.20190902",
+  "ConversionSoftwareVersion": "v1.0.20200331",
   "DeviceSerialNumber": "167006",
   "DwellTime": 2.5e-06,
   "EchoTime": 0.12,
@@ -37,6 +37,8 @@
   "PartialFourier": 1,
   "PatientPosition": "HFS",
   "PercentPhaseFOV": 100,
+  "PercentSampling": 100,
+  "PhaseEncodingDirection": "j-",
   "PhaseEncodingSteps": 422,
   "PhaseOversampling": 0.8,
   "PhaseResolution": 1,
@@ -62,19 +64,19 @@
   "StationName": "MRC35049",
   "TxRefAmp": 258.2,
   "dcmmeta_affine": [
-    [0.7986734509468079, -2.256000020042087e-13, 0.04605124890804291, -34.48756790161133],
-    [0.0, 0.800000011920929, 3.9176001852270215e-12, -139.763671875],
-    [-0.04605124890804291, -3.91040021543998e-12, 0.7986734509468079, -190.54119873046875],
+    [2.256000020042087e-13, 0.04605124890804291, 0.7986734509468079, -34.48756790161133],
+    [-0.800000011920929, 3.9176001852270215e-12, 0.0, 115.43633270263672],
+    [3.91040021543998e-12, 0.7986734509468079, -0.04605124890804291, -190.54119873046875],
     [0.0, 0.0, 0.0, 1.0]
 ],
   "dcmmeta_reorient_transform": [
-    [0.0, 0.0, -1.0, 319.0],
     [0.0, -1.0, 0.0, 319.0],
-    [-1.0, 0.0, 0.0, 63.0],
+    [1.0, 0.0, 0.0, 0.0],
+    [0.0, 0.0, -1.0, 63.0],
     [0.0, 0.0, 0.0, 1.0]
 ],
-  "dcmmeta_shape": [64, 320, 320],
-  "dcmmeta_slice_dim": 0,
+  "dcmmeta_shape": [320, 320, 64],
+  "dcmmeta_slice_dim": 2,
   "dcmmeta_version": 0.6,
   "global": {
     "const": {
