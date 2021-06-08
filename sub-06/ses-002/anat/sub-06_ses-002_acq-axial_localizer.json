@@ -7,7 +7,7 @@
   "CoilString": "HC1-7;NC1_2",
   "ConsistencyInfo": "N4_VE11C_LATEST_20160120",
   "ConversionSoftware": "dcm2niix",
-  "ConversionSoftwareVersion": "v1.0.20190902",
+  "ConversionSoftwareVersion": "v1.0.20200331",
   "DeviceSerialNumber": "167006",
   "DwellTime": 6.1e-06,
   "EchoTime": 0.00369,
@@ -42,6 +42,7 @@
   "PartialFourier": 1,
   "PatientPosition": "HFS",
   "PercentPhaseFOV": 100,
+  "PercentSampling": 91,
   "PhaseEncodingDirection": "j-",
   "PhaseEncodingSteps": 233,
   "PhaseResolution": 0.91,
@@ -70,9 +71,6 @@
     -23
   ],
   "SliceThickness": 7,
-  "SliceTiming": [
-    0
-  ],
   "SoftwareVersions": "syngo_MR_E11",
   "SpacingBetweenSlices": 8.4,
   "StationName": "MRC35049",
