@@ -1,3 +1,7 @@
+**/anat/*localizer*
+**/anat/*scout*
+**/*__dup*
+**/*_defacemaskreg.mat
 # follow MIDS extension wip
 */*/*/*_bp-cspine*
 # localizers exported
