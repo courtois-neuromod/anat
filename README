@@ -1,1 +1,35 @@
-TODO: Provide description for the dataset -- basic details about the study, possibly pointing to pre-registration (if public or embargoed)
+<!-- vim: syntax=Markdown -->
+# Courtois-NeuroMod: [anat subdataset](https://github.com/courtois-neuromod/anat)
+
+The [Courtois project on Neural Modelling (Courtois NeuroMod)](https://www.cneuromod.ca/) aims at training artificial neural networks using extensive experimental data on individual human brain activity and behaviour.
+
+This dataset contains anatomical sessions ongoingly acquired in the neuromod project (~4 sessions per year).
+
+This subdataset is organized following the [brain imaging data structure (BIDS)](https://bids.neuroimaging.io/) (including extensions in development) and contains:
+
+- [x] [raw brain imaging sequences](https://docs.cneuromod.ca/en/latest/MRI.html#brain-anatomical-sequences)
+  - [x] T1-weighted MPRAGE 3D sagittal sequence (duration 6:38 min, TR = 2.4 s, TE = 2.2 ms, flip angle = 8 deg, voxel size = 0.8 mm isotropic, R=2 acceleration)
+  - [x] T2-weighted FSE (SPACE) 3D sagittal sequence (duration 5:57 min, TR = 3.2 s, TE = 563 ms, voxel size = 0.8 mm isotropic, R=2 acceleration)
+  - [x] Diffusion-weighted 2D axial sequence (duration 4:04 min, TR = 2.3 s, TE = 82 ms, 57 slices, flip angle = 78 deg, voxel size = 2 mm isotropic, phase-encoding P-A, SMS=3 through-plane acceleration, b-max = 3000 s/mm2). The same sequence was run with phase-encoding A-P to correct for susceptibility distortions.
+  - [x] gradient-echo magnetization-transfer 3D sequence (duration 3:34 min, 28 = ms, TE = 3.3 ms, flip angle = 6 deg, voxel size = 1.5 mm isotropic, R=2 in-plane GRAPPA, MT pulse Gaussian shape centered at 1.2 kHz offset).
+  - [x] gradient-echo proton density 3D sequence (same parameters as above, without the MT pulse).
+  - [x] gradient-echo T1-weighted 3D sequence (same parameters as above, except: TR = 18 ms, flip angle = 20 deg).
+  - [x] MP2RAGE 3D sequence (duration 7:26 min, TR = 4 s, TE = 1.51 ms, TI1 = 700 ms, TI2 = 1500 ms, flip angle 1 = 7 deg, flip angle 2 = 5 deg, voxel size = 1.2 mm isotropic, R=2 acceleration)
+  - [x] Susceptibility-weighted 3D sequence (duration 4:54 min, TR = 27 ms, TE = 20 ms, flip angle = 15 deg)
+- [x] [cervical spinal cord imaging sequences](https://docs.cneuromod.ca/en/latest/MRI.html#spinal-cord-anatomical-sequences) imaging sequences.
+  - [x] T1-weighted 3D sagittal sequence (duration 4:44 min, TR = 2 s, TE = 3.72 ms, flip angle = 9 deg, voxel size = 1.0 mm isotropic, R=2 acceleration)
+  - [x] T2-weighted 3D sagittal sequence (duration 4:02 min, TR = 1.5 s, TE = 120 ms, flip angle = 120 deg, voxel size = 0.8 mm isotropic, R=3 acceleration)
+  - [x] Diffusion-weighted 2D axial sequence (cardiac-gated with pulseOx, approximate duration 3 min, TR = 620 ms, TE = 60 ms, voxel size = 0.9 x 0.9 x 0.5 mm, phase-encoding A-P, b-max = 800 s/mm2)
+  - [x] Gradient-echo magnetization-transfer 3D axial sequence (duration 2:12 min, TR = 35 ms, TE = 3.13 ms, flip angle = 9 deg, voxel size = 0.9 x 0.9 x 0.5 mm, R=2 acceleration, with MT Gaussian pulse)
+  - [x] Gradient-echo proton-density weighted 3D axial sequence (same parameters as above, without the MT pulse).
+  - [x] Gradient-echo T1-weighted 3D axial sequence (same parameters as above, except: TR = 15 ms, flip angle = 15 deg).
+  - [x] gradient-echo ME (duration 4:45 min, TR = 600 ms, effective TE = 14 ms (this is a multi-echo sequence), flip angle = 30 deg, voxel size = 0.9 x 0.9 x 0.5 mm, R=2 acceleration)
+
+
+Courtois NeuroMod data are [freely shared with the scientific community](https://docs.cneuromod.ca/en/latest/ACCESS.html) to advance research at the interface of neuroscience and artificial intelligence. Access to to the data is based on a registered access model, see the Courtois NeuroMod website for more information. Redistribution of data outside of the Courtois NeuroMod data bank is prohibited.
+
+
+## Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
