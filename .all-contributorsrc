@@ -108,6 +108,16 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "arnaudbore",
+      "name": "arnaudbore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2171665?v=4",
+      "profile": "https://github.com/arnaudbore",
+      "contributions": [
+        "design",
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7
