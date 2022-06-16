@@ -31,5 +31,15 @@ Courtois NeuroMod data are [freely shared with the scientific community](https:/
 
 ## Contributors
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/bpinsard"><img src="https://avatars.githubusercontent.com/u/1155388?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Basile</b></sub></a><br /><a href="#design-bpinsard" title="Design">🎨</a> <a href="#ideas-bpinsard" title="Ideas, Planning, & Feedback">🤔</a> <a href="#data-bpinsard" title="Data">🔣</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
