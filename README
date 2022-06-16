@@ -31,5 +31,15 @@ Courtois NeuroMod data are [freely shared with the scientific community](https:/
 
 ## Contributors
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.neuro.polymtl.ca"><img src="https://avatars.githubusercontent.com/u/2482071?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julien Cohen-Adad</b></sub></a><br /><a href="#design-jcohenadad" title="Design">🎨</a> <a href="#ideas-jcohenadad" title="Ideas, Planning, & Feedback">🤔</a> <a href="#data-jcohenadad" title="Data">🔣</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
