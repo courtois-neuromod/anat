@@ -1,0 +1,15 @@
+name: Test deploy
+on:
+  push:
+    branches: [ main, git-annex ]
+
+jobs:
+  test_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Test deploy"
+        uses: courtois-neuromod/actions-template@main
+        env:
+          SECRET_KEY: ${{ secrets.CNEUROMOD_BOT_SSH_KEY }}
+
+
