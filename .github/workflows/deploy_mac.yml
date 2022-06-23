@@ -1,0 +1,19 @@
+name: deploy on macOS
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Install datalad
+        run: |
+          brew update
+          brew install datalad
+      - name: Test intalling the dataset
+        run: |
+          datalad install -r git@github.com:courtois-neuromod/${GITHUB_REPOSITORY##*/}.git
+          cd ${GITHUB_REPOSITORY##*/}
+          git remote -v
