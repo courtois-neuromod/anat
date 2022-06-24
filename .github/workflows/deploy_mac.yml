@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
 jobs:
   deploy:
-    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@4f5d2de082cdbdd7cf0aaabe83d1f681e9420afa
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@28eb123f39c97f1e1df06172fc82109b7ed2f25a
     with:
       name: CNeuromod Bot
       email: courtois.neuromod@gmail.com
