@@ -7,6 +7,7 @@
 1740d07b-1268-48d7-94dc-a3cee1859cce bpinsard@elm.criugm.qc.ca:/tmp/tmp04b9o1wg timestamp=1112911997s
 2170e29a-270d-4818-a9de-39e0bfee65b1 bpinsard@narval2.narval.calcul.quebec:/lustre03/project/6003287/datasets/cneuromod_processed/smriprep/sourcedata/raw timestamp=1654609787s
 2a3f3241-ee05-4cfa-8a21-de7bd0f58083 bpinsard@elm.criugm.qc.ca:/tmp/tmpmbaekb_9 timestamp=1112911997s
+32d88d03-40bb-4c96-aed7-e3ecb096e400 bpinsard@elm.criugm.qc.ca:/scratch/tmp/tmppf90nzxd timestamp=1663684193s
 5b3409fc-a0f9-4615-9976-bb63addd4b76 bpinsard@elm.criugm.qc.ca:/scratch/tmp/tmp6tnssgc3 timestamp=1663684193s
 63b592b0-16cd-4663-89b5-6b9009c2b112 bpinsard@elm.criugm.qc.ca:/tmp/tmplg2dkwtw timestamp=1112911997s
 6e2f4614-5d94-4a61-8ee7-5f0ab838038d bpinsard@elm.criugm.qc.ca:/tmp/tmp8veg61tl timestamp=1663613792.71851488s
@@ -27,5 +28,6 @@ ceb2008c-0ea0-4f10-b2cd-7fe5a065115a basile@criugm0277:~/data/tests/tmp/anat tim
 cf0d48a1-dafe-4722-a7da-d2b851fe9c36 basile@criugm0277:~/data/tests/cneuromod/anat timestamp=1112912054s
 d4c56341-6430-4353-ae2d-6da3e7166cde cneuromod.anat.mri.sensitive timestamp=1588699032.573909168s
 d789942f-5208-4df0-a2e9-b4b76594e054 basile@criugm0277:~/data/tests/movie10.fmriprep/sourcedata/smriprep/sourcedata/raw timestamp=1656441888s
+eb3673ce-75ab-43d0-b2fe-bb5ea5fdce08 bpinsard@elm.criugm.qc.ca:/scratch/tmp/tmphy6zfozg timestamp=1663684193s
 f2500d00-dc4a-43c4-bb99-34346a0b26ea bpinsard@elm.criugm.qc.ca:/scratch/tmp/tmply029kra timestamp=1663684193s
 f73fdebf-94f8-4a81-9b2d-27d43d5cd3c0 bpinsard@elm.criugm.qc.ca:/scratch/tmp/tmpf38il3mq timestamp=1669910005.738956612s
