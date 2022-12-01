@@ -1,0 +1,14 @@
+name: deploy on macOS
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  deploy:
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@28eb123f39c97f1e1df06172fc82109b7ed2f25a
+    with:
+      name: CNeuromod Bot
+      email: courtois.neuromod@gmail.com
+    secrets:
+      ssh_key: ${{ secrets.CNEUROMOD_BOT_SSH_KEY }}
