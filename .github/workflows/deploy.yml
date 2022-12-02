@@ -2,7 +2,8 @@ name: Test deploy
 on:
   push:
     branches: [ main, git-annex ]
-
+  pull_request:
+    branches: [ main ]
 jobs:
   test_deploy:
     runs-on: ubuntu-latest
