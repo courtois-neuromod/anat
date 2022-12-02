@@ -2,7 +2,8 @@ name: Test deploy
 on:
   push:
     branches: [ main, git-annex ]
-
+  pull_request:
+    branches: [ main ]
 jobs:
   deploy_linux:
     uses: courtois-neuromod/actions-template/.github/workflows/deploy.yml@754784a071869ed280bf2cf20861300fe75fba4b
