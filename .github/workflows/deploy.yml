@@ -4,12 +4,17 @@ on:
     branches: [ main, git-annex ]
 
 jobs:
-  test_deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: "Test deploy"
-        uses: courtois-neuromod/actions-template@main
-        env:
-          SECRET_KEY: ${{ secrets.CNEUROMOD_BOT_SSH_KEY }}
-
-
+  deploy_linux:
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy.yml@754784a071869ed280bf2cf20861300fe75fba4b
+    with:
+      name: CNeuromod Bot
+      email: courtois.neuromod@gmail.com
+    secrets:
+      ssh_key: ${{ secrets.CNEUROMOD_BOT_SSH_KEY }}
+  deploy_mac:
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@754784a071869ed280bf2cf20861300fe75fba4b
+    with:
+      name: CNeuromod Bot
+      email: courtois.neuromod@gmail.com
+    secrets:
+      ssh_key: ${{ secrets.CNEUROMOD_BOT_SSH_KEY }}
