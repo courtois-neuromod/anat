@@ -1,19 +1,19 @@
 name: Test deploy
 on:
   push:
-    branches: [ main, git-annex ]
+    branches: [ main, git-annex, tests]
   pull_request:
     branches: [ main ]
 jobs:
   deploy_linux:
-    uses: courtois-neuromod/actions-template/.github/workflows/deploy.yml@754784a071869ed280bf2cf20861300fe75fba4b
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy.yml@9447a93bbaaecae03ecde2664677a1d98b604e69
     with:
       name: CNeuromod Bot
       email: courtois.neuromod@gmail.com
     secrets:
       ssh_key: ${{ secrets.CNEUROMOD_BOT_SSH_KEY }}
   deploy_mac:
-    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@754784a071869ed280bf2cf20861300fe75fba4b
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@9447a93bbaaecae03ecde2664677a1d98b604e69
     with:
       name: CNeuromod Bot
       email: courtois.neuromod@gmail.com
