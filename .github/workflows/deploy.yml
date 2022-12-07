@@ -6,14 +6,14 @@ on:
     branches: [ main ]
 jobs:
   deploy_linux:
-    uses: courtois-neuromod/actions-template/.github/workflows/deploy.yml@89fed29f3e4b4acca502f9ad2348e475094241e2
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy.yml@e17e9a6e8e62fffda1cbe08ce590b8095f8d4e24
     with:
       name: CNeuromod Bot
       email: courtois.neuromod@gmail.com
     secrets:
       ssh_key: ${{ secrets.CNEUROMOD_BOT_SSH_KEY }}
   deploy_mac:
-    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@89fed29f3e4b4acca502f9ad2348e475094241e2
+    uses: courtois-neuromod/actions-template/.github/workflows/deploy_mac.yml@e17e9a6e8e62fffda1cbe08ce590b8095f8d4e24
     with:
       name: CNeuromod Bot
       email: courtois.neuromod@gmail.com
