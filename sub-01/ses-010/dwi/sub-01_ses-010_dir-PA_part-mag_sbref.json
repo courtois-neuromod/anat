@@ -33,7 +33,8 @@
   "InstitutionName": "IUGM",
   "InstitutionalDepartmentName": "Department",
   "IntendedFor": [
-    "ses-010/dwi/sub-01_ses-010_dir-AP_part-mag_dwi.nii.gz"
+    "ses-010/dwi/sub-01_ses-010_dir-AP_part-mag_dwi.nii.gz",
+    "ses-010/dwi/sub-01_ses-010_dir-PA_part-mag_dwi.nii.gz"
 ],
   "MRAcquisitionType": "2D",
   "MagneticFieldStrength": 3,
