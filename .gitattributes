@@ -7,4 +7,4 @@
 *.tsv annex.largefiles=nothing
 *.nii.gz annex.largefiles=anything
 *.tgz annex.largefiles=anything
-*_scans.tsv annex.largefiles=anything
+*_scans.tsv annex.largefiles=anything.github/** annex.largefiles=nothing
