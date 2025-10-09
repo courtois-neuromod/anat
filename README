@@ -1,6 +1,6 @@
 # anat
 
-This dataset contains anatomical sessions acquired longitudinally in the [CNeuroMod](https://cneuromod.ca) project (~2 sessions per year for 5 years, except `sub-05`).
+This dataset contains anatomical sessions acquired longitudinally in the [CNeuroMod](https://cneuromod.ca) project (~3 sessions per year for 5 years, except `sub-05`).
 
 :::{tip}
 If you use this dataset, please cite:
