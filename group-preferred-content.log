@@ -1,2 +1,2 @@
 1692199105.583577984s client not metadata=distribution-restrictions=*
-1764952173s conp not metadata=distribution-restrictions=* and exclude=**/sub-0[4]/** and exclude=sub-0[4]/**
+1764953239s conp not metadata=distribution-restrictions=* and exclude=**sub-0[4]** and exclude=sub-0[4]/**
